@@ -11,7 +11,7 @@ exports.scss = () => {
     .pipe(app.plugins.gulpif(!app.isBuild, app.plugins.sourcemaps.init()))
     .pipe(sass())
     .pipe(cleanCss({
-      // format: app.isBuild ? "" : "beautify",
+      format: app.isBuild ? "" : "beautify",
       // inline: ['all'],
       // rebase: false,
       level: 2,

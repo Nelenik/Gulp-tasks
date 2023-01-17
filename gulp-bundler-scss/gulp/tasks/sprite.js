@@ -11,7 +11,7 @@ exports.sprite = () => {
       mode: {
         stack: {
           sprite: '../sprite.svg'
-        }
+        },
       }
     }))
     
