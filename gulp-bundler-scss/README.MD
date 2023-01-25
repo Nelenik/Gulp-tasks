@@ -82,6 +82,9 @@
 ## Работа со скриптами
 В этой версии все файлы в папке js и во вложенных папках склеиваются в один файл `app.js`, который минифицируем и подключаем в html. Локальные версии плагинов находятся в папке resources/libs их подключать отдельно.
 
+## Работа со спрайтами
+Сборка спрайтов настроена таким образом, что удаляются все атрибуты `fill` , `stroke`, `style`, чтобы при стилизации не было проблем. Но если вручную указать атрибутам `fill` или `stroke` занчение `currentColor`, то они не удалятся и перекрасить можно будет свойством color для svg. Это удобно, если картинка состоит из 2 цветов и красить надо по разному.
+
 ## Плагины:
 - [del@6.1.1](https://github.com/sindresorhus/del#readme) - удаляет директории и файлы (более поздние версии работают только с модульным типом сбоки);
 - [browser-sync](https://browsersync.io/docs/api) - локальный сервер;
@@ -105,3 +108,5 @@
 - [babel-loader](https://www.npmjs.com/package/babel-loader);
 - [sass](https://www.npmjs.com/package/sass);
 - [gulp-sass](https://www.npmjs.com/package/gulp-sass)
+- [gulp-group-css-media-queries](https://www.npmjs.com/package/gulp-group-css-media-queries)
+- [gulp-cheerio]
