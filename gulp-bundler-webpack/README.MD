@@ -8,7 +8,7 @@
 
 ## Структура:
 ```
-|--gulp/       
+|--gulp/
 |  |--configs/              # Папка с общими настройками
 |  |  |--pathes.js          # Файл с путями
 |  |  |--plugins.js         # Подключение общих для разных тасков плагинов
@@ -102,7 +102,7 @@
 - [gulp-plumber](https://www.npmjs.com/package/gulp-plumber) - отслеживает ошибки и предотвращает аварийное завершение таска;
 - [gulp-notify](https://www.npmjs.com/package/gulp-notify) - отправляет уведомления об ошибках или успешном выполнении таска;
 - [gulp-if](https://github.com/robrich/gulp-if) - Тернарный плагин gulp: условное управление потоком виниловых объектов;
-- [gulp-sourcemaps](https://github.com/gulp-sourcemaps/gulp-sourcemaps) 
+- [gulp-sourcemaps](https://github.com/gulp-sourcemaps/gulp-sourcemaps)
 - [gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer) - расставляет вендорные преффиксы в css;
 - [gulp-clean-css](https://github.com/scniro/gulp-clean-css) - плагин минифицирует CSS используя [clean-css](https://github.com/clean-css/clean-css);
 - [gulp-replace](https://github.com/lazd/gulp-replace) - заменяет строки в галп;

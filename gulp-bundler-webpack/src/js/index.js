@@ -1,5 +1,1 @@
-import {hello} from './components/test.js';
-import { sayHi } from './components/test.js';
-
-console.log(hello())
-console.log(sayHi())
+import {swiper} from './components/swiper-init.js'
