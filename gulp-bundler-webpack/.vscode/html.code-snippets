@@ -1,0 +1,87 @@
+{
+  "svguse": {
+    "scope": "html",
+    "prefix": "html-use",
+    "body": [
+      "<svg class=\"$1\">",
+      "\t<use xlink:href=\"sprite.svg#$2\"><use>",
+      "</svg>"
+    ],
+    "description": "Snippet for use svg sprites",
+  },
+  "burger": {
+    "scope": "html",
+    "prefix": "html-burger",
+    "body": [
+      "<button class=\"burger\" aria-label=\"Открыть меню\">",
+      "\t<span class=\"burger__line\"></span>",
+      "</button>"
+    ],
+    "description": "Snippet for burger",
+  },
+  "baseswiper": {
+    "scope": "html",
+    "prefix": "html-swiper",
+    "body": [
+      "<div class=\"swiper\">",
+      "\t<div class=\"swiper-wrapper\">",
+      "\t\t<div class=\"swiper-slide\"></div>",
+      "\t\t<div class=\"swiper-slide\"></div>",
+      "\t\t<div class=\"swiper-slide\"></div>",
+      "\t</div>",
+      "\t<div class=\"swiper-pagination\"></div>",
+      "\t<div class=\"swiper-button-prev\"></div>",
+      "\t<div class=\"swiper-button-next\"></div>",
+      "\t<div class=\"swiper-scrollbar\"></div>",
+      "</div>",
+    ],
+    "description": "Snippet for swiper",
+  },
+  "picture": {
+    "scope": "html",
+    "prefix": "html-picture",
+    "body": [
+      "<picture>",
+      "\t<source srcset=\"$1\" type=\"image/webp\" media=\"()\">",
+      "\t<source srcset=\"$1\" type=\"image/webp\"> ",
+      "\t<img class=\"\" src=\"$1.$2\" alt=\"$3\" loading=\"lazy\">",
+      "</picture>",
+    ]
+  },
+  "unorderedList": {
+    "scope": "html",
+    "prefix": "html-ul",
+    "body": [
+      "<ul class=\"list-reset $1__list\">",
+      "\t<li class=\"$2__item\"></li>",
+      "\t<li class=\"$2__item\"></li>",
+      "\t<li class=\"$2__item\"></li>",
+      "</ul>"
+    ],
+    "description": "Snippet for unordered list"
+  },
+  "menuList": {
+    "scope": "html",
+    "prefix": "html-menu",
+    "body": [
+      "<ul class=\"list-reset $1__list\">",
+      "\t<li class=\"$2__item\">",
+      "\t\t<a class=\"$3__link\"></a>",
+      "\t</li>",
+      "\t<li class=\"$2__item\">",
+      "\t\t<a class=\"$3__link\"></a>",
+      "\t</li>",
+      "\t<li class=\"$2__item\">",
+      "\t\t<a class=\"$3__link\"></a>",
+      "\t</li>",
+      "\t<li class=\"$2__item\">",
+      "\t\t<a class=\"$3__link\"></a>",
+      "\t</li>",
+      "\t<li class=\"$2__item\">",
+      "\t\t<a class=\"$3__link\"></a>",
+      "\t</li>",
+      "</ul>"
+    ],
+    "description": "Snippet for menu list"
+  }
+}
